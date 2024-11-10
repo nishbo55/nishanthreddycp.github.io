@@ -1,86 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nishanth Reddy Chintal Prakash - Profile</title>
-  <link rel="stylesheet" href="styles.css">
-  <!-- Include Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishanth Reddy Chintal Prakash - Cloud Architect</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+        }
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>I'm <span>Nishanth Reddy Chintal Prakash</span></h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <!-- Social Links -->
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/nishanth-reddy-657233174/" target="_blank" aria-label="LinkedIn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#64ffda" viewBox="0 0 24 24">
-            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.74v20.52c0 .97.78 1.74 1.77 1.74h20.46c.98 0 1.77-.78 1.77-1.74V1.74C24 .77 23.21 0 22.23 0zM7.06 20.45H3.56V8.98h3.5v11.47zm-1.76-13a2.03 2.03 0 110-4.06 2.03 2.03 0 010 4.06zm15.2 13h-3.5v-5.95c0-1.42-.02-3.26-2-3.26-2 0-2.3 1.56-2.3 3.16v6.05h-3.5V8.98h3.36v1.56h.05c.47-.88 1.6-1.8 3.28-1.8 3.5 0 4.15 2.3 4.15 5.28v6.43z"/>
-          </svg>
-        </a>
-        <a href="https://www.youtube.com/@nrproductions5006" target="_blank" aria-label="YouTube">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#64ffda" viewBox="0 0 24 24">
-            <path d="M23.498 6.186a2.992 2.992 0 00-2.112-2.113C19.568 3.571 12 3.571 12 3.571s-7.568 0-9.386.502a2.992 2.992 0 00-2.113 2.113C0 8.004 0 12 0 12s0 3.996.502 5.814a2.992 2.992 0 002.113 2.113C4.432 20.429 12 20.429 12 20.429s7.568 0 9.386-.502a2.992 2.992 0 002.113-2.113C24 15.996 24 12 24 12s0-3.996-.502-5.814zM9.75 15.569v-7.138L15.429 12l-5.679 3.569z"/>
-          </svg>
-        </a>
-      </div>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h3><span>About Me</span></h3>
-    <img src="images/my-photo.jpg" alt="Nishanth Reddy Chintal Prakash" class="profile-photo">
-    <p>
-        Hello! My name is Nishanth and I am a Cloud Solutions Architect at the UCSC, <br> 
-        where I design and implement cloud-based solutions for various academic and <br> 
-        research projects. With over 12 years of experience in cloud computing, <br> 
-        cloud architecture, DevOps engineering, and Linux systems administration. <br> 
-    </p>
-    <p>
-        Fast-forward to today, and I’ve had the privilege of working at <br> 
-        <a href="https://www.centene.com" target="_blank">Centene Corporation</a>, <br> 
-        <a href="https://www.verizon.com/" target="_blank">Verizon</a>, <br> 
-        <a href="https://www.unitedhealthgroup.com/uhg/businesses/unitedhealthcare.html" target="_blank">UHG</a>, and <br> 
-        <a href="https://www.paramount.com" target="_blank">Viacom, (now Paramount Global)</a>. <br>
-        My main focus these days is to deliver scalable, reliable, and secure cloud solutions <br> 
-        that meet the <a href="https://www.ucsc.edu" target="_blank">needs and expectations</a> of a variety of clients. 
-    </p>
-    <p>Here are a few technologies I’ve been working with recently:</p>
-    <ul class="skills-list">
-      <li>AWS Solutions Architecture</li>
-      <li>Infrastructure as Code (Terraform, CloudFormation)</li>
-      <li>Serverless Architecture (Lambda, API Gateway)</li>
-      <li>Kubernetes (EKS)</li>
-      <li>CI/CD Pipelines (Jenkins, GitLab CI/CD)</li>
-      <li>AWS Networking (VPC, Route 53, CloudFront)</li>
-      <li>Security and Compliance (IAM, AWS Config, Amazon Inspector)</li>
-      <li>Monitoring and Logging (CloudWatch, Prometheus, Grafana)</li>
-      <li>Cost Optimization (AWS Budgets, Trusted Advisor)</li>
-      <li>Python & Scripting for Automation</li>
-    </ul>
-  </section>
+<div class="sidebar">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</div>
 
-  <section id="experience">
-    <h3>Experience</h3>
-    <p>Describe your experience here...</p>
-  </section>
+<div class="container">
+    <header>
+        <h1>Nishanth Reddy Chintal Prakash</h1>
+        <p>Cloud Architect | AWS Solutions Expert | DevOps Engineer</p>
+    </header>
 
-  <section id="projects">
-    <h3>Projects</h3>
-    <p>List your projects or portfolio here...</p>
-  </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Experienced Cloud Architect with a focus on AWS, bringing over a decade of expertise in designing, deploying, and optimizing cloud solutions across sectors, including healthcare, education, and telecommunications. Skilled in leveraging AWS services to enhance scalability, security, and efficiency, I have a proven track record of implementing high-availability architectures and cost-optimized solutions for large organizations. I am passionate about continuous learning and bringing innovation to cloud infrastructure and DevOps practices.
+        </p>
+    </section>
 
-  <section id="contact">
-    <h3>Contact</h3>
-    <p>Provide your contact details or form here...</p>
-  </section>
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <h3>University of California, Santa Cruz - Cloud Architect (AWS)</h3>
+        <p><em>Oct 2023 – Present</em></p>
+        <ul>
+            <li>Architected a multi-region AWS infrastructure for 5,000+ faculty and students, achieving 99.99% uptime.</li>
+            <li>Reduced operational costs by 30% through serverless microservices using AWS Lambda and API Gateway.</li>
+            <li>Optimized data retrieval by integrating Amazon RDS with student databases, resulting in a 45% improvement in speeds.</li>
+            <li>Implemented disaster recovery with a 4-hour RTO and 15-minute RPO across multi-cloud environments.</li>
+        </ul>
+
+        <h3>Centene Corporation - Cloud Architect (AWS)</h3>
+        <p><em>June 2022 – June 2023</em></p>
+        <ul>
+            <li>Led the migration of 50+ critical healthcare applications to AWS, cutting infrastructure costs by 35%.</li>
+            <li>Designed a HIPAA-compliant architecture using AWS Shield and WAF, ensuring 100% audit pass rate.</li>
+            <li>Automated provisioning with Terraform, reducing deployment times from 4 hours to 15 minutes.</li>
+        </ul>
+
+        <h3>Verizon - Cloud Architect (AWS)</h3>
+        <p><em>Dec 2018 – May 2022</em></p>
+        <ul>
+            <li>Developed scalable CRM solutions serving 2 million users with 99.98% uptime, hosted on AWS.</li>
+            <li>Implemented high-volume data processing with Apache Kafka, managing over 2M events per minute.</li>
+            <li>Reduced cold storage costs by 40% by migrating 1PB of video content to Amazon S3 Glacier.</li>
+        </ul>
+
+        <!-- Add more work experiences if needed -->
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <h3>Multi-Region Cloud Architecture</h3>
+        <p>
+            Designed a multi-region AWS architecture for a university environment, providing high availability and disaster recovery capabilities, achieving a 99.99% uptime and reducing operational costs.
+        </p>
+
+        <h3>HIPAA-Compliant Infrastructure</h3>
+        <p>
+            Architected a HIPAA-compliant AWS environment for a healthcare organization, implementing AWS Shield and WAF to meet security and compliance standards, resulting in significant improvements in audit readiness and data protection.
+        </p>
+
+        <h3>Scalable CRM Solution</h3>
+        <p>
+            Developed and deployed a cloud-based CRM system on AWS, integrating Apache Kafka and Pega, designed to handle high volumes of data and provide 99.98% uptime for over 2 million users.
+        </p>
+
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nishanth9866@gmail.com">nishanth9866@gmail.com</a></p>
+        <p>Phone: <a href="tel:+14694680991">469-468-0991</a></p>
+        <p>Location: Haslet, TX 76052</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nishanth-reddy-657233174/" target="_blank">Nishanth Reddy on LinkedIn</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Nishanth Reddy Chintal Prakash</p>
+</footer>
 
 </body>
 </html>
