@@ -1,19 +1,13 @@
 /* General styles */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-body {
-    font-family: 'Fira Code', sans-serif;
-    background-color: #0a192f;
-    color: #e6f1ff;
-    line-height: 1.6;
-}
-
-/* Container */
+/* Container settings */
 .container {
     width: 80%;
     max-width: 1000px;
@@ -27,108 +21,39 @@ header {
     padding: 50px 0;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    color: #64ffda;
-}
-
-header p {
-    font-size: 1.2rem;
-    color: #8892b0;
-}
-
-/* Sidebar navigation */
-.sidebar {
-    position: fixed;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.sidebar a {
-    color: #64ffda;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
-    transition: color 0.3s;
-}
-
-.sidebar a:hover {
-    color: #a8b2d1;
+/* Heading styles */
+h1, h2, h3 {
+    color: #333;
 }
 
 /* Section styles */
 .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding: 20px;
-    background-color: #112240;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding-left: 120px; /* For sidebar space */
-    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.section h2 {
-    font-size: 1.8rem;
-    color: #64ffda;
-    margin-bottom: 20px;
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
 }
 
-.section h3 {
-    font-size: 1.4rem;
-    color: #ccd6f6;
-    margin-top: 10px;
-}
-
-.section p, .section ul {
-    color: #a8b2d1;
-    margin-bottom: 10px;
-}
-
-.section ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-.section ul li {
-    margin-bottom: 5px;
-}
-
-/* Link styles */
-a {
-    color: #64ffda;
+.sidebar a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
     text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #a8b2d1;
 }
 
 /* Footer styles */
 footer {
     text-align: center;
     padding: 20px 0;
-    font-size: 0.9rem;
-    color: #8892b0;
-    border-top: 1px solid #233554;
-    margin-top: 40px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-
-    .section {
-        padding-left: 20px; /* Adjust padding for small screens */
-    }
-
-    .sidebar {
-        display: none; /* Hide sidebar on smaller screens */
-    }
+    font-size: 0.9em;
+    color: #666;
 }
